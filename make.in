@@ -1,0 +1,7 @@
+CROSS = arm-none-linux-gnueabi-
+#CROSS = arm-none-linux-gnueabi-
+#CROSS = /usr/local/arm-linux/bin/xscale-linux-
+CC = $(CROSS)gcc
+AR = $(CROSS)ar
+CFLAGS = -g -lpthread  -lm -ldl
+#CFLAGS = -lpthread  -lm -ldl

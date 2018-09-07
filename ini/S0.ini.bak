@@ -1,0 +1,92 @@
+[NET]
+TYPE=can
+
+
+[SERIAL]
+DEVICE=ttyO
+SERIAL_NUM=1
+
+[CAN]
+DEVICE=can
+CAN_NUM=2
+
+
+[COM0]
+ESL_NUM = 0
+#[COM0]
+[COM1]
+ESL_NUM = 33
+#序号--id--类型--货架号
+#0 12 JH 1
+0  1 JH 1
+1  2 JH 1
+2  3 JH 1
+3  4 JH 1
+4  5 JH 1
+5  6 JH 1
+6  7 JH 1
+7  8 JH  1
+8  9 JH  1
+9  10 JH  1
+10  11  JH  1
+11  12  JH  1
+12  13  JH  1
+13  14  JH  1
+14  15  JH  1
+15  16  JH  1
+16  17  JH  1
+17  18  JH  1
+18  2002 DK 1
+19  90 SM 1
+20  85 JH 1
+21  19 JH 1
+22  20 JH 1
+23  21 JH 1
+24  22 JH 1
+25  23 JH 1
+26  24 JH 1
+27  25 JH 1
+28  26 JH 1
+29  27 JH 1
+30  28 JH 1
+31  29 JH 1
+32  30 JH 1
+
+[COM1]
+ESL_NUM = 0
+#序号--id--类型--货架号
+0  2002 DK 1
+1  1007 SM 1
+2  3002 ZS 1
+3  16  JH 1
+4  17  JH 1
+5  18  JH 1
+6  19  JH 1
+7  20  JH 1
+8  21  JH 1
+9  22  JH  1
+10  23  JH  1
+11  24  JH  1
+12  25  JH  1
+13  26  JH  1
+14  27  JH  1
+15  28  JH  1
+16  29  JH  1
+17  30  JH  1
+18  31  JH  1
+19  32  JH  1
+20  33  JH  1
+21  34  JH  1
+22  35  JH  1
+23  36  JH  1
+
+
+[COM2]
+ESL_NUM = 4
+#序号--id--类型--货架号
+0  JH    1	2001 
+1  DK   2	3001 
+2  SM   3	1002 
+3  ZS   4	1003 
+
+
